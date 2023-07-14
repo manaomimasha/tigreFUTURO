@@ -55,7 +55,6 @@ main {
     url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-R1WJ1BTLYFgux7EKSbzjM_WkY34f8npLjBEk0BhuBr6dsZ8y1SVvG3XWlvGvPXuZ-Lo&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(0.5); */
   padding: 20px;
   color: transparent; /* Establece el color del texto en transparente */
   text-shadow: 0 0 0 white; /* Ajusta el relleno según sea necesario */
@@ -75,7 +74,7 @@ main {
 }
 
 @media (min-width: 600px) {
-  .tagline .intro {
+  .tagline, .intro {
     font-size: 10px;
     
   }
