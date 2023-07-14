@@ -2,41 +2,6 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-@media (min-width: 576px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 576px) {
-  .intro {
-    font-size: 500px;
-  }
-}
-
-.intro {
-  font-family: "Reem Kufi", sans-serif;
-  font-size: 70px;
-  font-weight: 600;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  html {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1200px) {
-  html {
-    font-size: 20px;
-  }
-}
 
 .icons-social i {
   font-size: 3em;
@@ -44,14 +9,6 @@ html {
 
 /* Custom Styles */
 
-main {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: center;
-  padding: 0 30px;
-  text-align: center;
-}
 
 main > .tagline {
   font-size: 1.5rem;
@@ -78,16 +35,6 @@ main > .tagline {
   height: 2.65rem;
 }
 
-/* Theme */
-
-main {
-  /* background: #ededed;
-  color: #4b5658; */
-
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-R1WJ1BTLYFgux7EKSbzjM_WkY34f8npLjBEk0BhuBr6dsZ8y1SVvG3XWlvGvPXuZ-Lo&usqp=CAU");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .icons-social a {
   color: white;
@@ -96,19 +43,6 @@ main {
 .icons-social a svg path {
   fill: white;
 }
-
-/* main {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-R1WJ1BTLYFgux7EKSbzjM_WkY34f8npLjBEk0BhuBr6dsZ8y1SVvG3XWlvGvPXuZ-Lo&usqp=CAU");
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(0.5);
-}
-body {
-  color: white;
-}
-.intro {
-  color: white;
-} */
 
 body {
   margin: 0; /* Ajusta los márgenes según sea necesario */
@@ -125,4 +59,24 @@ main {
   padding: 20px;
   color: transparent; /* Establece el color del texto en transparente */
   text-shadow: 0 0 0 white; /* Ajusta el relleno según sea necesario */
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+
+.intro {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+@media (min-width: 600px) {
+  .tagline .intro {
+    font-size: 10px;
+    
+  }
 }
