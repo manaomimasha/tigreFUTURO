@@ -126,10 +126,8 @@ main {
 
 @media (max-width: 500px) {
 
-  
-
-.item {
-  flex: 1;
+  .item {
+  /* flex: 1; */
   margin: 5px;
 }
 
@@ -137,12 +135,12 @@ main {
   flex-basis: 10%;
  display: flex;
  align-items: flex-start;
- margin-bottom: -30px;
+ /* margin-bottom: -30px; */
 }
 
 .item2 {
   flex-basis: 10%;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 
 .item3 {
