@@ -94,7 +94,7 @@ main {
 
 
 .item {
-  flex: 1;
+  /* flex: 1; */
   margin: 5px;
 }
 
@@ -121,6 +121,40 @@ main {
   flex-basis: 49%;
   align-items: center;
   justify-content: flex-start;
+}
+
+
+@media (max-width: 500px) {
+
+  
+
+.item {
+  flex: 1;
+  margin: 5px;
+}
+
+.item1 {
+  flex-basis: 10%;
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: -30px;
+}
+
+.item2 {
+  flex-basis: 10%;
+  margin-top: -20px;
+}
+
+.item3 {
+  flex-basis: 10%;
+}
+
+.item4 {
+  flex-basis: 70%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 }
 
 
